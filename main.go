@@ -10,7 +10,7 @@ import (
 func run() {
 	var pendulums []sPendulum
 	pendulums = append(pendulums, sPendulum{
-		grav:      1.5,
+		grav:      1,
 		radius1:   400.0,
 		radius2:   400.0,
 		mass1:     64.0,
@@ -22,7 +22,7 @@ func run() {
 		color:     color.NRGBA{255, 0, 0, 255},
 	},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -34,7 +34,7 @@ func run() {
 			color:     color.NRGBA{255, 0, 50, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -46,7 +46,7 @@ func run() {
 			color:     color.NRGBA{255, 0, 100, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -58,7 +58,7 @@ func run() {
 			color:     color.NRGBA{255, 0, 150, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -70,7 +70,7 @@ func run() {
 			color:     color.NRGBA{255, 0, 200, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -82,7 +82,7 @@ func run() {
 			color:     color.NRGBA{255, 0, 250, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -94,7 +94,7 @@ func run() {
 			color:     color.NRGBA{200, 0, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -106,7 +106,7 @@ func run() {
 			color:     color.NRGBA{150, 0, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -118,7 +118,7 @@ func run() {
 			color:     color.NRGBA{100, 0, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -130,7 +130,7 @@ func run() {
 			color:     color.NRGBA{50, 0, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -142,7 +142,7 @@ func run() {
 			color:     color.NRGBA{0, 0, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -154,7 +154,7 @@ func run() {
 			color:     color.NRGBA{0, 50, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -166,7 +166,7 @@ func run() {
 			color:     color.NRGBA{0, 100, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -178,7 +178,7 @@ func run() {
 			color:     color.NRGBA{0, 150, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -190,7 +190,7 @@ func run() {
 			color:     color.NRGBA{0, 200, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -202,7 +202,7 @@ func run() {
 			color:     color.NRGBA{0, 255, 255, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -214,7 +214,7 @@ func run() {
 			color:     color.NRGBA{0, 255, 200, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -226,7 +226,7 @@ func run() {
 			color:     color.NRGBA{0, 255, 150, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -238,7 +238,7 @@ func run() {
 			color:     color.NRGBA{0, 255, 100, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
@@ -250,7 +250,7 @@ func run() {
 			color:     color.NRGBA{0, 255, 50, 255},
 		},
 		sPendulum{
-			grav:      1.5,
+			grav:      1,
 			radius1:   400.0,
 			radius2:   400.0,
 			mass1:     64.0,
