@@ -30,8 +30,8 @@ func (pendulum *sPendulum) update() {
 	pendulum.theta1 += pendulum.thetaVel1
 	pendulum.theta2 += pendulum.thetaVel2
 
-	pendulum.thetaVel1 *= 0.9996
-	pendulum.thetaVel2 *= 0.9996
+	pendulum.thetaVel1 *= 1
+	pendulum.thetaVel2 *= 1
 
 	pendulum.pendPos1 = pixel.V(pendulum.radius1*math.Sin(pendulum.theta1), pendulum.radius1*math.Cos(pendulum.theta1))
 	pendulum.pendPos2 = pixel.V(pendulum.pendPos1.X+pendulum.radius2*math.Sin(pendulum.theta2), pendulum.pendPos1.Y+pendulum.radius2*math.Cos(pendulum.theta2))
